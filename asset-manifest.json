@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/incredible-india/static/css/main.1c3b6d92.css",
+    "main.css": "/incredible-india/static/css/main.e80b658a.css",
     "main.js": "/incredible-india/static/js/main.9e31f2d4.js",
     "index.html": "/incredible-india/index.html",
-    "main.1c3b6d92.css.map": "/incredible-india/static/css/main.1c3b6d92.css.map",
+    "main.e80b658a.css.map": "/incredible-india/static/css/main.e80b658a.css.map",
     "main.9e31f2d4.js.map": "/incredible-india/static/js/main.9e31f2d4.js.map"
   },
   "entrypoints": [
-    "static/css/main.1c3b6d92.css",
+    "static/css/main.e80b658a.css",
     "static/js/main.9e31f2d4.js"
   ]
 }
