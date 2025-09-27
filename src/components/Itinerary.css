@@ -1,0 +1,23 @@
+.itinerary {
+  padding: 40px 20px;
+  color: white;
+  text-align: center;
+}
+
+.itinerary h2 {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.itinerary p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.filters select {
+  margin: 10px;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  font-size: 16px;
+}

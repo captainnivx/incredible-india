@@ -1,0 +1,40 @@
+.festivals-section {
+  padding: 40px 20px;
+  background: #f9f9f9;
+  text-align: center;
+}
+
+.festivals-section h2 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+}
+
+.festivals-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.festival-card {
+  width: 250px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.festival-card:hover {
+  transform: scale(1.05);
+}
+
+.festival-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+}
+
+.festival-card h3 {
+  margin: 10px 0;
+  font-size: 1.2rem;
+}

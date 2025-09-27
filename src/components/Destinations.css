@@ -1,0 +1,42 @@
+.destinations {
+  padding: 40px 20px;
+  background-color: #f9f9f9;
+}
+
+.destinations h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 30px;
+  color: #2c3e50;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 25px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.card h3 {
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: #34495e;
+}
