@@ -12,7 +12,10 @@ function Hero() {
     <section className="hero">
       {heroSlides.map((slide, index) => (
         <div key={index} className="slide">
-          <img src={`/images/${slide.img}`} alt={slide.title} />
+          <img
+            src={`${process.env.PUBLIC_URL}/images/${slide.img}`}
+            alt={slide.title}
+          />
           <h2 className="slide-title">{slide.title}</h2>
         </div>
       ))}

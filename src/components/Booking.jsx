@@ -11,7 +11,7 @@ const tabs = [
 ];
 
 const bookingStyle = {
-  backgroundImage: "url('/images/backwater.avif')",
+  backgroundImage: `url(${process.env.PUBLIC_URL}/images/backwater.avif)`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   padding: "40px 20px",

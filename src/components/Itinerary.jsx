@@ -2,7 +2,7 @@ import React from 'react';
 import './Itinerary.css';
 
 const itineraryStyle = {
-  backgroundImage: "url('/images/munnar.avif')",
+  backgroundImage: `url(${process.env.PUBLIC_URL}/images/munnar.avif)`,
   backgroundSize: "cover",
   backgroundPosition: "center",
   padding: "40px 20px",
